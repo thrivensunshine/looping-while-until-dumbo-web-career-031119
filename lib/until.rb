@@ -1,7 +1,8 @@
 def using_until
   levitation_force = 6
-  until counter == 10 do
-    puts ""
+  until levitation_force == 10 do
+    puts "Wingardium Leviosa"
+    levitation_force
   #your code here
     
 end
